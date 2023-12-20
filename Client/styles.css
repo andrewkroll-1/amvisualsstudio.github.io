@@ -19,7 +19,7 @@ header {
     font-size: 30px;
     display: inline-block;
     justify-content: space-evenly;
-    padding: 6rem;
+    padding: 4rem;
 }
 .logo {
     flex: 1;
@@ -39,8 +39,59 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
-
 .button:hover {
     background-color: #0056b3;
     border-color: #0056b3;
+}
+main{
+    color: white;
+}
+.andrew{
+    grid-template-columns: 1fr 2fr;
+    grid-column-start: 2/3;
+    display: grid;
+    padding-bottom: 4rem;
+    padding: 2rem;
+}
+.mitch{
+    grid-template-columns: 1fr 2fr;
+    grid-column-start: 2/3;
+    display: grid;
+    padding: 2rem;
+}
+.andrew-about{
+    padding: 2rem;
+}
+.mitch-about{
+    padding: 1.75rem;
+}
+.shoots {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.shoots div {
+    flex-basis: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.shoots img {
+    max-width: 100%;
+    height: auto;
+}
+.shoots h2 {
+    margin-top: 10px;
+}
+.shoot-one h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.shoot-two h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
 }
