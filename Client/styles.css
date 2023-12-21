@@ -233,7 +233,9 @@ main{
 }
 .prints{
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    margin: 20px;
+    justify-content: space-around;
+    width: 300px;
+    height: auto;
+    text-align: center;
 }
