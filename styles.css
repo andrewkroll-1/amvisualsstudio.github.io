@@ -210,7 +210,7 @@ figure{
 }
 @media (max-width:1000px){
     .left-links a, .right-links a {
-        padding: 1rem;
+        padding: .35rem;
     }
     .logo img{
         max-width: 400px;
