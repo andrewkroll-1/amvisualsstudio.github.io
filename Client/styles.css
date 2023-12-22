@@ -208,8 +208,8 @@ main{
 figure{
     width: 40%;
 }
-@media (max-width: 1000px){
-    .left-links a, .right-links a{
+@media (max-width:1000px){
+    .left-links a, .right-links a {
         padding: 1rem;
     }
     .logo img{
@@ -217,6 +217,9 @@ figure{
     }
     .left-links, .right-links{
         text-align: center;
+    }
+    .index-gallery h1{
+        padding: 2rem;
     }
 }
 .index-gallery h1{
