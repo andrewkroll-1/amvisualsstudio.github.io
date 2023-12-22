@@ -152,7 +152,7 @@ main{
 .gallery img{
     width: 100vw;
 }
-@media (min-width:1000px){
+@media (min-width: 1000px){
     .gallery img{
         max-width: 40rem;
     }
@@ -208,7 +208,7 @@ main{
 figure{
     width: 40%;
 }
-@media (max-width:1000px){
+@media (max-width: 1000px){
     .left-links a, .right-links a {
         padding: .35rem;
     }
