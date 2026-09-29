@@ -12,6 +12,9 @@ header {
 .left-links, .right-links {
     flex: 1;
 }
+.right-links{
+    text-align: right;
+}
 .left-links a, .right-links a {
     text-decoration: none;
     color: white;
